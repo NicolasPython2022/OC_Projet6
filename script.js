@@ -8,7 +8,7 @@ function fetchBestMovie() {
     let bestImg = document.getElementByClassName('best-cover')[0].getElementByTagName('img')[0];
     let bestDescription = document.getElementByClassName('button')[1];
 
-    fetch(mainUrl + "?sort_by = imdb_score")
+    fetch(mainUrl)
         .then(res => {
             console.log(res);
 

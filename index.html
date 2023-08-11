@@ -28,17 +28,28 @@
     </nav>
     <!--Fin de la barre de Navigation-->
 
-    <!--FILMS-->
-    <section class="films">
+ <!--------------------------------------------------------------------------------------------------------------------------->
+    <!--MOVIES-->
+    <section class="movies">
 
-        <!--Meilleur film-->
-        <section class="section top">   <!--Cette class comprend deux class en elle-meme, d'ou l'espace entre les deux appelation-->
-            <h2>Meilleur Film</h2>
-            <div class="list">    <!--Div contenant l'image-->
-                <a href=""><img src="http://" alt=""></a>
+        <!--Best Movie-->
+        <section class="best" id="best-movie">
+            <div class="best-cover" id="top0">
+                <img src="" alt="movie cover">
             </div>
-        </section>  
+            <div class="best-movie">
+                <h1 class="best-movie-title" id="top-title">""</h1>
+            </div>
+            <div class="buttons">
+                <button class="button"><i class="play"></i>Play</button>
+                <button class="button" aria-label="open modal">More infos</button>
+            </div>
+            <div class="best-movie-description">
+                <p class="best-desc" id="top-desc">""</p>
+            </div>
+        </section>
         <!--Fin du Meilleur film-->
+<!---------------------------------------------------------------------------------------------------------------------------> 
         
         <!--Films action-->
         <section class="section" id="action">   <!--Cette class comprend deux class en elle-meme, d'ou l'espace entre les deux appelation-->
@@ -54,7 +65,7 @@
             </div>
         </section>  
         <!--Fin des films d'action-->
-
+        
         <!--Films d'aventures-->
         <section class="section aventures">   <!--Cette class comprend deux class en elle-meme, d'ou l'espace entre les deux appelation-->
             <h2>Films d'aventures</h2>
@@ -85,6 +96,8 @@
         </section>  
         <!--Fin des films policier-->
     </section>
+    
+    <script src="script.js"></script>
     <!--Fin des FILMS-->
     
     <footer>

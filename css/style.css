@@ -1,8 +1,18 @@
 body{
-    background-image : url("./img/netflix.png");
+    background-color: #111111;
+    color: white;
+    background-image : url("");
     padding: 0; 
     margin: 0;  /* Supprime les marges */
     font-family: Arial, Arial, Helvetica, sans-serif /* Modifie la police d'ecriture (sans-serif pour la notifier par default)*/
+}
+button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.2s;
 }
 /*----------------------Debut de la barre de Navigation--------------------------------------------------*/
 nav{
@@ -85,6 +95,3 @@ footer{
     color: #909191;
 }
 /*----------------------Fin du footer------------------------------------------------------------------*/
-#action{
-    appel de l'id
-}
