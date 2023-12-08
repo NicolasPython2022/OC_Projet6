@@ -10,93 +10,50 @@
 <body>
     <!--Barre de Navigation-->
     <nav>
-        <div class="gauche">
-            <img src="./css/img/logo_netflix_black.jpeg" alt="logo" height="130"/>
-        <div class="onglets">
-            <p>Home</p>
-            <p>TV Shows</p>
-            <p>Movies</p>
-            <p>Latest</p>
-            <p>My list</p>
-        </div>
-        </div>
-        <div class="droite">
-            <p><i class="fas fa-search"></i></p>
-            <p><i class="fas fa-bell"></i></p>
-            <p>Mon compte</p>
-        </div>
+         <div class="logoTitle">NETFLIX</div>
+         <ul><a href="#">Accueil</a></ul>
+         <ul><a href="#">Catégorie</a></ul>
     </nav>
     <!--Fin de la barre de Navigation-->
 
  <!--------------------------------------------------------------------------------------------------------------------------->
     <!--MOVIES-->
-    <section class="movies">
 
-        <!--Best Movie-->
-        <section class="best" id="best-movie">
-            <div class="best-cover" id="top0">
-                <img src="" alt="movie cover">
+        <!--Best Movie -->
+        <div class="content">
+            <div class="rectangle">
+                <div class="rectangle-content">
+                    <h2 id="top-movie">Titre du rectangle</h2>
+                    <button id="voirInfosBtn">Voir infos</button>
+                    <p id="top-desc">Description</p>
+                </div>
+                <img id="top-img" src="" alt="Image Best Movie">
             </div>
-            <div class="best-movie">
-                <h1 class="best-movie-title" id="top-title">""</h1>
-            </div>
-            <div class="buttons">
-                <button class="button"><i class="play"></i>Play</button>
-                <button class="button" aria-label="open modal">More infos</button>
-            </div>
-            <div class="best-movie-description">
-                <p class="best-desc" id="top-desc">""</p>
-            </div>
-        </section>
+        </div>
+           
         <!--Fin du Meilleur film-->
 <!---------------------------------------------------------------------------------------------------------------------------> 
         
-        <!--Films action-->
-        <section class="section" id="action">   <!--Cette class comprend deux class en elle-meme, d'ou l'espace entre les deux appelation-->
-            <h2>Films d'action</h2>
-            <div class="list">    <!--Div contenant l'image-->
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
+        <!-- Les 7 Films les mieux notés-->
+        <div class="carousel-container">
+            <button id="prevBtn">&lt;</button>
+            <div class="carousel">
+                <!-- Your carousel content goes here -->
+                <img id="top-img0" src="https://via.placeholder.com/300" alt="Carousel Image 1">
+                <img id="top-img1" src="https://via.placeholder.com/300" alt="Carousel Image 2">
+                <img id="top-img2" src="https://via.placeholder.com/300" alt="Carousel Image 3">
+                <img id="top-img3" src="https://via.placeholder.com/300" alt="Carousel Image 4">
+                <img id="top-img4" src="https://via.placeholder.com/300" alt="Carousel Image 5">
+                <img id="top-img5" src="https://via.placeholder.com/300" alt="Carousel Image 6">
+                <img id="top-img6" src="https://via.placeholder.com/300" alt="Carousel Image 7">
             </div>
-        </section>  
-        <!--Fin des films d'action-->
+            <button id="nextBtn">&gt;</button>
+        </div>
+        <!--Fin des Films les mieux notés-->
         
-        <!--Films d'aventures-->
-        <section class="section aventures">   <!--Cette class comprend deux class en elle-meme, d'ou l'espace entre les deux appelation-->
-            <h2>Films d'aventures</h2>
-            <div class="list">    <!--Div contenant l'image-->
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-            </div>
-        </section>  
-        <!--Fin des films d'aventures-->
+<!---------------------------------------------------------------------------------------------------------------------------> 
 
-        <!--Films policier-->
-        <section class="section policier">   <!--Cette class comprend deux class en elle-meme, d'ou l'espace entre les deux appelation-->
-            <h2>Films policier</h2>
-            <div class="list">    <!--Div contenant l'image-->
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-                <a href=""><img src="http://" alt=""></a>
-            </div>
-        </section>  
-        <!--Fin des films policier-->
-    </section>
-    
+
     <script src="script.js"></script>
     <!--Fin des FILMS-->
     
